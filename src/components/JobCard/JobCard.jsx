@@ -1,20 +1,39 @@
 import "./JobCard.css";
 
-function JobCard({ title, company, location, salary }) {
+function JobCard({ title, company, location, salary, type }) {
+
   return (
+
     <div className="job-card">
 
-      <h2>{title}</h2>
+      <div className="job-header">
 
-      <p><strong>Company:</strong> {company}</p>
+        <h2>{title}</h2>
 
-      <p><strong>Location:</strong> {location}</p>
+        <span>{type}</span>
 
-      <p><strong>Salary:</strong> {salary}</p>
+      </div>
 
-      <button>Apply</button>
+      <h3>{company}</h3>
+
+      <p>📍 {location}</p>
+
+      <p>💰 {salary}</p>
+
+      <div className="job-buttons">
+
+        <button className="apply-btn">
+          Apply
+        </button>
+
+        <button className="save-btn">
+          Save
+        </button>
+
+      </div>
 
     </div>
+
   );
 }
 

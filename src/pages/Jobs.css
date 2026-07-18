@@ -1,27 +1,47 @@
-.job-card{
-    width:320px;
-    background:white;
-    border-radius:10px;
-    padding:20px;
-    box-shadow:0 3px 10px rgba(0,0,0,.1);
+.jobs-page{
+
+    padding:60px;
+
+    background:#f8fafc;
+
+    min-height:100vh;
 }
 
-.job-card h2{
-    color:#2563eb;
-    margin-bottom:10px;
+.jobs-page h1{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:#1e293b;
 }
 
-.job-card p{
-    margin:8px 0;
+.search-box{
+
+    display:block;
+
+    width:400px;
+
+    max-width:100%;
+
+    margin:0 auto 40px;
+
+    padding:14px;
+
+    border:2px solid #2563eb;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    outline:none;
 }
 
-.job-card button{
-    margin-top:15px;
-    width:100%;
-    padding:10px;
-    border:none;
-    background:#2563eb;
-    color:white;
-    cursor:pointer;
-    border-radius:6px;
+.job-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:25px;
 }
