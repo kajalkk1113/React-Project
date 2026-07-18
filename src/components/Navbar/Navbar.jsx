@@ -3,7 +3,7 @@ import "./NavBar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar">
+    <nav>
 
       <div className="logo">
         <NavLink to="/">Career Compass</NavLink>
@@ -16,7 +16,6 @@ function Navbar() {
         <NavLink to="/jobs">Jobs</NavLink>
         <NavLink to="/profile">Profile</NavLink>
       </div>
-
     </nav>
   );
 }

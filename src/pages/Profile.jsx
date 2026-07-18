@@ -7,7 +7,7 @@ function Profile() {
       <div className="profile-card">
 
         <img
-          src="https://i.pravatar.cc/150?img=12"
+          src="https://i.pravatar.cc/150?img=10"
           alt="Profile"
           className="profile-image"
         />

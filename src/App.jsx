@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/home/Home";
 import Dashboard from "./pages/Dashboard";
@@ -10,6 +9,8 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
+   
+    <div>
     <BrowserRouter>
       <Navbar />
 
@@ -22,6 +23,8 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
+    </div>
+   
   );
 }
 
