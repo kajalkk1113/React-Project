@@ -40,3 +40,36 @@ export const jobData = [
     type: "Remote",
   },
 ];
+
+export const learningData = [
+  {
+    id:1,
+    course:"React JS",
+    progress:80,
+    status:"In Progress"
+  },
+  {
+    id:2,
+    course:"JavaScript",
+    progress:60,
+    status:"In Progress"
+  },
+  {
+    id:3,
+    course:"HTML & CSS",
+    progress:100,
+    status:"Completed"
+  },
+  {
+    id:4,
+    course:"Node JS",
+    progress:30,
+    status:"Started"
+  },
+  {
+    id:5,
+    course:"MongoDB",
+    progress:20,
+    status:"Started"
+  }
+];
