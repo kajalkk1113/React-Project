@@ -1,26 +1,30 @@
-export const learningData = [
+export const jobData = [
   {
-    id: 1,
-    course: "React",
-    progress: 80,
-    status: "In Progress",
+    id:1,
+    title:"Frontend Developer",
+    company:"Google",
+    location:"Bangalore",
+    salary:"₹12 LPA"
   },
   {
-    id: 2,
-    course: "JavaScript",
-    progress: 65,
-    status: "In Progress",
+    id:2,
+    title:"React Developer",
+    company:"Microsoft",
+    location:"Hyderabad",
+    salary:"₹15 LPA"
   },
   {
-    id: 3,
-    course: "HTML & CSS",
-    progress: 100,
-    status: "Completed",
+    id:3,
+    title:"UI Developer",
+    company:"Infosys",
+    location:"Pune",
+    salary:"₹8 LPA"
   },
   {
-    id: 4,
-    course: "DSA",
-    progress: 30,
-    status: "Started",
-  },
+    id:4,
+    title:"JavaScript Developer",
+    company:"TCS",
+    location:"Noida",
+    salary:"₹7 LPA"
+  }
 ];

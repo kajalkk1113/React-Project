@@ -1,5 +1,5 @@
 import LearningCard from "../components/LearningCard/LearningCard";
-import { learningData } from "../data/dummyData";
+import { jobData } from "../data/dummyData";
 import "./Learning.css";
 
 function Learning() {
@@ -9,7 +9,7 @@ function Learning() {
       <h1>Learning Tracker</h1>
 
       <div className="learning-container">
-        {learningData.map((item) => (
+        {jobData.map((item) => (
           <LearningCard
             key={item.id}
             course={item.course}
