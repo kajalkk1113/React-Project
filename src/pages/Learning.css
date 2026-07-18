@@ -1,0 +1,17 @@
+.learning-page {
+  padding: 40px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.learning-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.learning-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
